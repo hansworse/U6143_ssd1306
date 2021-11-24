@@ -1,4 +1,4 @@
-Target		= display
+Target		= oled-display-stats
 CXX         	= gcc
 ODIR		= obj
 SRC		=$(wildcard *.c)
