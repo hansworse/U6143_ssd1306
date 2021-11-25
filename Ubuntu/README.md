@@ -43,7 +43,7 @@ sudo systemctl enable oled-display-stats
 ```
 - Optionally, start the service
 ```bash
-sudo systemctl start oled-dsiplay-stats
+sudo systemctl start oled-display-stats
 ```
 - reboot your system
 
