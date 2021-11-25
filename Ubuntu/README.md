@@ -31,11 +31,11 @@ sudo ./oled-display-stats
 
 - Copy the oled-display-stats binary to standard path binaries location.
 ```bash
-sudo cp /home/(User name)/U6143_ssd1396/C/oled-display-stats /usr/local/sbin
+sudo cp /home/(User name)/U6143_ssd1306/C/oled-display-stats /usr/local/sbin
 ```
 - Copy simple service definition to systemd service configuration location.
 ```bash
-sudo cp /home/(User name)/U6143_ssd1396/Ubuntu/oled-display-stats.service /etc/systemd/system
+sudo cp /home/(User name)/U6143_ssd1306/Ubuntu/oled-display-stats.service /etc/systemd/system
 ```
 - Enable the service
 ```bash 
