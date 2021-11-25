@@ -1,0 +1,8 @@
+[Unit]
+Description=Displays rotating stats on the integrated Raspberry Pi OLED display.
+
+[Service]
+ExecStart=/usr/local/sbin/oled-display-stats
+
+[Install]
+WantedBy=multi-user.target
